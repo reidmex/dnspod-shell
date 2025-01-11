@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 
 # Combine your token ID and token together as follows
 
-arToken="12345,7676f344eaeaea9074c123451234512d"
+arToken="134019,29252b05e07d3abba921f5931a099c73"
 
 # Web endpoint to be used for querying the public IPv6 address
 # Set this to override the default url provided by ardnspod
