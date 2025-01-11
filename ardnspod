@@ -286,7 +286,7 @@ arDdnsLookup() {
         # No sub_domain for root domain
         subDomainRule="&sub_domain=$2"
     fi
-
+    arLog "***01***"
     # Get Record Id
     recordId=$(arDdnsApi "Record.List" "domain=$1${subDomainRule}&record_type=$3")
     recordId=$(echo $recordId | sed 's/.*"id":"\([0-9]*\)".*/\1/')
