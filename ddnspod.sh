@@ -3,7 +3,7 @@
 cd "$(dirname "$0")"
 
 # Import ardnspod functions
-. ardnspod
+. ./ardnspod
 
 # Combine your token ID and token together as follows
 
