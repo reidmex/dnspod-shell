@@ -28,7 +28,7 @@ arErrCodeUnchanged=0
 # you can have multiple arDdnsCheck blocks
 
 # IPv4:
-arDdnsCheck "test.org" "subdomain"
+arDdnsCheck "198052.xyz" "ipv4"
 
 # IPv6:
-arDdnsCheck "test.org" "subdomain6" 6
+arDdnsCheck "198052.xyz" "erx" 6
